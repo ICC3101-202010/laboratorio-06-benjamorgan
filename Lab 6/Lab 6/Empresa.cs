@@ -210,6 +210,7 @@ namespace Lab_6
             {
                 formatter.Serialize(stream, gg.DivisionesDeLaEmpresa[i]);
             }
+            stream.Close();
         }
 
 
